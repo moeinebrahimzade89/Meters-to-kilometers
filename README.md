@@ -15,7 +15,7 @@ A lightweight Python script that converts a distance value from **meters** to **
 2. Open your terminal or command prompt.
 3. Run the following command:
 ```bash
-python converter.py
+python Meters to kilometers.py
 
 
 meter: 5000
