@@ -1,5 +1,5 @@
 try:
-    meter = float(input("meter:"))
-    print("Kilometer:",meter / 1000)
-except:
-    print("The entered value is not a number.")
+    meter = float(input("Enter length in meters: "))
+    print(f"Kilometer: {meter / 1000}")
+except ValueError:
+    print("Error: The entered value is not a valid number.")
